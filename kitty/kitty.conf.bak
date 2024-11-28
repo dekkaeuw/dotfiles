@@ -1,0 +1,80 @@
+font_size 10.0
+# foreground #de64cd
+# url_color #a900e0
+# cursor #de6483
+
+term xterm-256color
+# color0 #000000
+# color8 #102820
+# color1 #4c6444
+# color9 #4c6444
+# color2 #8a6240
+# color10 #8a6240
+# color3 #caba9c
+# color11 #caba9c
+# hashtag
+# color4 #bbbbbb
+# color12 #bbbbbb
+
+#normal colours like neofetch
+# color5 #000000
+# color13 #000000
+# color6 #5c4827
+# color14 #5c4827
+# color7 #bbbbbb
+# color15 #ffffff
+
+background_opacity 0.9
+background_opacity_gaps -10
+
+window_margin_width 10
+
+single_window_margin_length 1
+
+window_border_width 2pt
+
+enabled_layouts Tall, *
+active_border_color #4c6444
+inactive_border_color #4c6444
+
+single_window_margin_width 0
+
+
+
+
+
+
+
+
+
+#
+# When strip_workspace_numbers is set to yes,
+# any workspace that has a name of the form
+# “[n][:][NAME]” will display only the name.
+#strip_workspace_numbers yes
+##strip_workspace_name no
+#
+#	colors {
+#		separator          $purple
+#		background         $darkbluetrans
+#        	statusline         $white
+#					border		bg		txt		indicator
+#		focused_workspace	$lighterblue	$lighterblue	$darkblue	$purple
+#		active_workspace	$lightdblue	$lightdblue	$darkblue	$purple
+#		inactive_workspace	$darkblue	$darkblue	$lightdblue	$purple
+#		urgent_workspace	$urgentred	$urgentred	$white		$purple
+#	}
+#}
+
+#####################################
+# Application menu handled by rofi: #
+#####################################
+
+## rofi bindings fancy application menu (
+
+
+
+# BEGIN_KITTY_THEME
+# Gruvbox Dark
+include current-theme.conf
+# END_KITTY_THEME
